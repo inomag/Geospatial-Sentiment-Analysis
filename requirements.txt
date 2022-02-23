@@ -1,0 +1,6 @@
+##### Requirements without version specified ##############################
+numpy
+pandas
+folium
+
+
