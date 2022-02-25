@@ -1,12 +1,13 @@
 # This python program:
 # 1. Opens sample csv file 'sampleCSV'
 # 2. Generates new csv file 'outputCSV'
-# 3. tranlates (or attempts to translate) main text data in sampleCSV to english
+# 3. detects and tranlates (or attempts to translate) main text data in sampleCSV to english
 # 4. Analyses sentiment of the main text and scores it as well as corresponds the scores to very -ve, -ve, neutral, +ve and very +ve
 # 5. Writes each row and data to outputCSV
 
 import csv
 from numpy import full
+from langdetect import detect
 from translate import Translator
 from textblob import TextBlob as TB
 import emoji
@@ -33,6 +34,7 @@ with open (sampleCSV, 'r', encoding = 'utf-8') as csvFile:
             language = ii['Language']
 
             if (language != 'en'):
+                language = detect (fullText)
                 translatedText = Translator(from_lang = language, to_lang = 'en').translate (text = fullText)
             else:
                 translatedText = fullText
