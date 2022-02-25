@@ -2,5 +2,8 @@
 numpy
 pandas
 folium
+textblob
+emoji
+langdetect
 
 

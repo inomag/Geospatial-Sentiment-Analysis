@@ -8,5 +8,5 @@ $ git clone https://github.com/inomag/Geospatial-Sentiment-Analysis.git
 $ cd Geospatial-Sentiment-Analysis
 
 # Install from Pipfile
-$ pip install -r requirements.txt 
+$ pip install -r requirements.txt --user
 ```
