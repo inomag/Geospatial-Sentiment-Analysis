@@ -12,8 +12,8 @@ from translate import Translator
 from textblob import TextBlob as TB
 import emoji
 
-sampleCSV = 'Silchar.csv'
-outputCSV = 'TranslatedSilchar.csv'
+sampleCSV = './datasets/Silchar.csv'
+outputCSV = './datasets/TranslatedSilchar.csv'
 
 rowNum = 1
 
