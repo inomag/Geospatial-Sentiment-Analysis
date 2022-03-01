@@ -6,8 +6,10 @@
 
 - [x] Demojize all Text from ```Guwahati.csv & Silchar.csv``` and save in ```Guwahati_Data.csv & Silchar_Data.csv``` under ```Demojized``` Column
 
-- [ ] Append the text and captions and save final data for final translation
+- [x] Append the text and captions and save final data for final translation
 
-- [ ] Detect and Translate all Text from ```Guwahati.csv & Silchar.csv``` and save in ```Guwahati_Data.csv & Silchar_Data.csv``` under ```Final Text``` Column
+- [x] Detect and Translate all Text from ```Guwahati.csv & Silchar.csv``` and save in ```Guwahati_Data.csv & Silchar_Data.csv``` under ```Final Text``` Column
+
+- [ ] Calculate Sentiment score for each Dataset
 
 
