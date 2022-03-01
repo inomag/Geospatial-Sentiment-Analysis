@@ -10,6 +10,6 @@
 
 - [x] Detect and Translate all Text from ```Guwahati.csv & Silchar.csv``` and save in ```Guwahati_Data.csv & Silchar_Data.csv``` under ```Final Text``` Column
 
-- [ ] Calculate Sentiment score for each Dataset
+- [x] Calculate Sentiment score for each Dataset
 
 
