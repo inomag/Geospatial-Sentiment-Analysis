@@ -12,4 +12,6 @@
 
 - [x] Calculate Sentiment score for each Dataset
 
+- [x] Update sentiment color and map settings
+
 
