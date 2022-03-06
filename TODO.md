@@ -14,4 +14,6 @@
 
 - [x] Update sentiment color and map settings
 
+- [ ] Use NLTK library to get sentiment score and update sentiment calc logic to use mean sentiment of all words in the string. 
+
 
